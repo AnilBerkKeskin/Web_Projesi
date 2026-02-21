@@ -5,9 +5,9 @@ Klişe imalatı sürecindeki sipariş yönetimini kolaylaştırmayı hedeflenir.
 Ambalaj imalatçılar <br>
 Bardak imalatçıları
 ## Temel Özellikler
-Kullanıcı Yönetimi: Güvenli Kayıt Olma ve Giriş Yapma (Authentication) sistemleri.<br>
-Müşteri Paneli: Müşterilerin kendi bilgilerini ve sipariş geçmişlerini yönetebileceği alan.<br>
-Online Sipariş: Klişe modellerinin seçilip sepete eklenmesi ve sipariş verilmesi.
+<b> Kullanıcı Yönetimi: </b> Güvenli Kayıt Olma ve Giriş Yapma (Authentication) sistemleri.<br>
+<b> Müşteri Paneli: </b> Müşterilerin kendi bilgilerini ve sipariş geçmişlerini yönetebileceği alan.<br>
+<b> Online Sipariş: </b> Klişe modellerinin seçilip sepete eklenmesi ve sipariş verilmesi.
 ## Kullanılan Teknolojiler
 HTML<br>
 CSS<br>
