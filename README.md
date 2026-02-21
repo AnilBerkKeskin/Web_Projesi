@@ -9,10 +9,10 @@ Kullanıcı Yönetimi: Güvenli Kayıt Olma ve Giriş Yapma (Authentication) sis
 Müşteri Paneli: Müşterilerin kendi bilgilerini ve sipariş geçmişlerini yönetebileceği alan.
 Online Sipariş: Klişe modellerinin seçilip sepete eklenmesi ve sipariş verilmesi.
 ## Kullanılan Teknolojiler
-<br>HTML
-<br>CSS
-<br>JavaScript
-<br>PHP
+HTML<br>
+CSS<br>
+JavaScript<br>
+PHP<br>
 MySQL
 ##  Canlı Link
 Henüz Yayınlanmadı
