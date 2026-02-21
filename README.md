@@ -2,7 +2,7 @@
 ## Proje açıklaması
 Klişe imalatı sürecindeki sipariş yönetimini kolaylaştırmayı hedeflenir. Müşteriler sistem üzerinden hesap oluşturabilir, giriş yapabilir ve online sipariş vererek süreçlerini takip edebilirler. 
 ## Hedef Kullanıcılar
-Ambalaj imalatçılar,
+Ambalaj imalatçılar <br>
 Bardak imalatçıları
 ## Temel Özellikler
 Kullanıcı Yönetimi: Güvenli Kayıt Olma ve Giriş Yapma (Authentication) sistemleri.
@@ -13,6 +13,6 @@ Online Sipariş: Klişe modellerinin seçilip sepete eklenmesi ve sipariş veril
 <br>CSS
 <br>JavaScript
 <br>PHP
-<br>MySQL
+MySQL
 ##  Canlı Link
 Henüz Yayınlanmadı
