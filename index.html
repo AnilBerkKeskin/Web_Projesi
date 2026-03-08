@@ -1,12 +1,246 @@
-<html>
-  <head>
-    <title> AnılKlise.com</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
-    <h1> Merhaba Github </h1>
-    <p> Bu benim ilk web projem </p>
-    <button onclick="MesajGöster()"> Tıkla </button>
-    <script src="script.js> </script>
-  </body>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klişe Üretim - Profesyonel Klişe İmalatı</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <div class="logo">Anıl<span>Klişe</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#anasayfa">Ana Sayfa</a></li>
+                <li><a href="#hakkimizda">Hakkımızda</a></li>
+                <li><a href="#hizmetler">Hizmetler</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="anasayfa">
+        <div class="hero-content">
+            <h1>Profesyonel Klişe İmalatı</h1>
+            <p>40 Yıllık Deneyim ile Kalite ve Hız</p>
+            <a href="#iletisim" class="cta-button">Hemen Teklif Alın</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="hakkimizda">
+        <h2 class="section-title">Hakkımızda</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Sektörün Öncüsü, Kalitenin Garantisi</h3>
+                <p>1983 yılından bu yana matbaa ve ambalaj sektöründe hizmet vermekteyiz. Deneyimli teknik kadromuz ve son teknoloji makinelerimiz ile maksimum verimliliği sağlayarak, ihtiyaç duyduğunuz kalınlık ve ölçülerde klişe imalatı yapıyoruz.</p>
+                <p>Müşterilerimize en yüksek kalitede ve kusursuz hizmet sunabilmek için üretim teknolojisini ve hizmet anlayışımızı sürekli olarak yenilemekte ve geliştirmekteyiz.</p>
+                <p>Grafik tasarım, film çıktısı, renk ayrımı ve plaka üretiminde tecrübe sahibi ekibimiz ile her zaman yanınızdayız.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-box">
+                    <h4>17</h4>
+                    <p>Yıllık Deneyim</p>
+                </div>
+                <div class="stat-box">
+                    <h4>300+</h4>
+                    <p>Mutlu Müşteri</p>
+                </div>
+                <div class="stat-box">
+                    <h4>24/7</h4>
+                    <p>Kesintisiz Üretim</p>
+                </div>
+                <div class="stat-box">
+                    <h4>%99</h4>
+                    <p>Müşteri Memnuniyeti</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="hizmetler">
+        <h2 class="section-title">Hizmetlerimiz</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">✦</div>
+                <h3>Yaldız Klişe</h3>
+                <p>Ürünlerinize lüks ve dikkat çekici bir görünüm kazandıran parlak yaldız baskıları için özel üretim klişeler.</p>
+                <ul>
+                    <li>Kağıt yaldız transferi</li>
+                    <li>Renkli yaldız folyoları</li>
+                    <li>Ambalaj transferleri</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">◈</div>
+                <h3>Gofre Klişe</h3>
+                <p>Kağıt ve benzeri yüzeylerde derin ve etkileyici kabartmalı efektler için tasarlanmış özel klişeler.</p>
+                <ul>
+                    <li>Emboss (Dışa kabartma)</li>
+                    <li>Ters Gofre (İçe kabartma)</li>
+                    <li>Geçmeli gofre</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">⬢</div>
+                <h3>Magnezyum Klişe</h3>
+                <p>Yüksek kaliteli magnezyum malzemeden üretilen, uzun ömürlü ve hassas detaylı klişeler.</p>
+                <ul>
+                    <li>1.5mm - 7mm kalınlık seçenekleri</li>
+                    <li>Maksimum ebat 50x60 cm</li>
+                    <li>Bilgisayarlı hassas işleme</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">⬣</div>
+                <h3>Fotopolimer Klişe</h3>
+                <p>Flexible ambalaj, oluklu mukavva ve naylon malzemeler üzerine baskı için dijital ve analog klişeler.</p>
+                <ul>
+                    <li>Yüksek çözünürlük</li>
+                    <li>Flexo baskı</li>
+                    <li>Kağıt ve plastik uyumlu</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">◆</div>
+                <h3>Nayloprint Klişe</h3>
+                <p>Etiket, aluminyum ve plastik kaplar için özel üretilen yüksek tram kapasiteli baskı kalıpları.</p>
+                <ul>
+                    <li>Su bazlı yıkama sistemi</li>
+                    <li>Deterjan kapları baskısı</li>
+                    <li>Gofraj uygulamaları</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">★</div>
+                <h3>Grafik Tasarım</h3>
+                <p>Profesyonel grafiker kadromuz ile özgün ve etkileyici tasarımlar oluşturuyoruz.</p>
+                <ul>
+                    <li>Ambalaj tasarımı</li>
+                    <li>Logo ve kurumsal kimlik</li>
+                    <li>Film çıktısı ve renk ayrımı</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="galeri">
+        <h2 class="section-title">Ürün Galerisi</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-title="Yaldız Klişe">
+                <span style="font-size: 4rem;">✦</span>
+            </div>
+            <div class="gallery-item" data-title="Gofre Klişe">
+                <span style="font-size: 4rem;">◈</span>
+            </div>
+            <div class="gallery-item" data-title="Magnezyum Klişe">
+                <span style="font-size: 4rem;">⬢</span>
+            </div>
+            <div class="gallery-item" data-title="Fotopolimer Klişe">
+                <span style="font-size: 4rem;">⬣</span>
+            </div>
+            <div class="gallery-item" data-title="Frekans Klişe">
+                <span style="font-size: 4rem;">◆</span>
+            </div>
+            <div class="gallery-item" data-title="Ezme & Yakma">
+                <span style="font-size: 4rem;">★</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="iletisim">
+        <h2 class="section-title">İletişim</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-details">
+                        <h4>Adres</h4>
+                        <p>Organize Sanayi Bölgesi<br>Ankara, Türkiye</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div class="contact-details">
+                        <h4>Telefon</h4>
+                        <p>+90 (352) 123 45 67<br>+90 (532) 123 45 67</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <div class="contact-details">
+                        <h4>E-posta</h4>
+                        <p>info@klisepro.com<br>satis@klisepro.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">⏰</div>
+                    <div class="contact-details">
+                        <h4>Çalışma Saatleri</h4>
+                        <p>Pazartesi - Cuma: 08:00 - 18:00<br>Cumartesi: 09:00 - 14:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Adınız Soyadınız</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-posta</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mesajınız</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">KLİŞE<span>PRO</span></div>
+            <ul class="footer-links">
+                <li><a href="#anasayfa">Ana Sayfa</a></li>
+                <li><a href="#hakkimizda">Hakkımızda</a></li>
+                <li><a href="#hizmetler">Hizmetler</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">f</a>
+                <a href="#" aria-label="Instagram">📷</a>
+                <a href="#" aria-label="LinkedIn">in</a>
+                <a href="#" aria-label="WhatsApp">📱</a>
+            </div>
+        </div>
+        <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);">
+            <p>&copy; 2026 KlişePro. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
